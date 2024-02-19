@@ -1,0 +1,99 @@
+@font-face {
+    font-family:robotobold;
+    src: url(Assets/fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family:robotoblack;
+    src: url(Assets/fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family:robotomedium;
+    src: url(Assets/fonts/Roboto-Medium.ttf);
+}
+
+
+body{
+    background-image: url(Assets/imgs/bg.png);
+    background-size: cover;
+}
+
+.topheader p{
+    font-family: robotobold;
+    font-size: 13px;
+}
+
+.topheader .theader{
+    color: grey;
+}
+.topheader{
+    padding: 10px;
+}
+
+.socialicons img{
+    width: 30px;
+}
+.socialicons{
+    text-align: right;
+}
+
+.header ul li{
+    padding: 10px;
+}
+
+.header ul li a{
+    font-family:robotobold;
+}
+
+.Headerbtn {
+    background-color:#fd4c82;
+    padding: 20px;
+    text-decoration: none;
+    font-family:robotobold;
+}
+
+
+.banner{
+    padding: 30px;
+}
+
+.banner h1{
+    font-family: robotoblack;
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+.banner p{
+    font-family:robotomedium;
+    color: grey;
+    margin-top: 10px;
+}
+
+.btn{
+    margin-top: 10px;
+}
+
+.btn .leftbtn{
+    background-color: #fd4c82;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn .rightbtn{
+    background-color:#91c235;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+@media screen and (max-width:625px){
+
+
+    
+}
